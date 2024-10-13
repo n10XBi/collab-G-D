@@ -1,0 +1,26 @@
+{
+  "name": "zyd-ai",
+  "version": "1.1.0",
+  "description": "Simple Code Chat AI With Whatsapp API Non Official",
+  "main": "handler.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chatgpt",
+    "chatbot",
+    "whatsapp",
+    "zyd",
+    "gpt"
+  ],
+  "author": "Muhammad Adriansyah",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.7.0"
+  },
+  "devDependencies": {
+    "qrcode-terminal": "^0.12.0"
+  }
+}
